@@ -2,8 +2,8 @@ id: net.nymtech.NymVPN
 runtime: org.gnome.Platform
 runtime-version: '47'
 sdk: org.gnome.Sdk
+command: nym-vpn
 
-command: run.sh
 finish-args:
   - --socket=wayland
   - --socket=fallback-x11
