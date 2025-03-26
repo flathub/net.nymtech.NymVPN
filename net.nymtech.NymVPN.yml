@@ -10,6 +10,7 @@ finish-args:
   - --device=dri
   - --share=ipc
   - --filesystem=/run/nym-vpn.sock:ro
+  - --filesystem=/var/log/nym-vpnd:ro
 
 modules:
   - shared-modules/libayatana-appindicator/libayatana-appindicator-gtk3.json
