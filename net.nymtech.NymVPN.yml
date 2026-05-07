@@ -38,3 +38,4 @@ modules:
       - install -Dm644 app.desktop /app/share/applications/net.nymtech.NymVPN.desktop
       - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/net.nymtech.NymVPN.svg
       - install -Dm644 net.nymtech.NymVPN.metainfo.xml /app/share/metainfo/net.nymtech.NymVPN.metainfo.xml
+
