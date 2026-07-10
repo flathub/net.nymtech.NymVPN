@@ -18,7 +18,7 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-app-v2026.11.0/nym-vpn_2026.11.0_linux_x64
+        url: https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.11.0/nym-vpn_2026.11.0_linux_x64
         sha256: c4b4c389d872492577a981ac58eadbf4c849e51807182aaa05a571593f8d65b8
         only-arches: [x86_64]
         dest-filename: nym-vpn
