@@ -33,7 +33,7 @@ modules:
         sha256: 8058039c52c588e38285971c4c37d50fdb8e05e50bbc19d7ffeb89d662a21f1e
     build-commands:
       - install -Dm755 nym-vpn /app/bin/nym-vpn
-      - desktop-file-edit --set-key=Exec --set-value="env RUST_LOG=info,nym_vpn_app=debug nym-vpn -l %U" app.desktop
+      - desktop-file-edit --set-key=Exec --set-value="env RUST_LOG=info,nym_vpn_app=debug nym-vpn %U" app.desktop
       - desktop-file-edit --set-icon=net.nymtech.NymVPN app.desktop
       - install -Dm644 app.desktop /app/share/applications/net.nymtech.NymVPN.desktop
       - install -Dm644 icon.svg /app/share/icons/hicolor/scalable/apps/net.nymtech.NymVPN.svg
