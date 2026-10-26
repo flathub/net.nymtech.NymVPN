@@ -26,7 +26,7 @@ modules:
         url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/75db80d/nym-vpn-app/.pkg/flatpak/net.nymtech.NymVPN.metainfo.xml
         sha256: c5d68fd552136676659628883f25a1908a70e090b8e57f7e73ba59131ffed5a6
       - type: file
-        url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/398493018/nym-vpn-app/.pkg/app.desktop
+        url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/develop/nym-vpn-app/.pkg/app.desktop
         sha256: 89d01a49dac087c987b2741dddb3bcb9e7f1461d9c0f50b7f75044ed45db575e
       - type: file
         url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/develop/nym-vpn-app/.pkg/icon.svg
