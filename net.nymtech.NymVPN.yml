@@ -23,8 +23,8 @@ modules:
         only-arches: [x86_64]
         dest-filename: nym-vpn
       - type: file
-        url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/75db80d/nym-vpn-app/.pkg/flatpak/net.nymtech.NymVPN.metainfo.xml
-        sha256: c5d68fd552136676659628883f25a1908a70e090b8e57f7e73ba59131ffed5a6
+        url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/c869cd5285e7714682672d1b891f82520dc1b8dc/nym-vpn-app/.pkg/flatpak/net.nymtech.NymVPN.metainfo.xml
+        sha256: e515256d5df639e9ef5b75d699273f71a7ceabab32636025e35f521c413dc4d4
       - type: file
         url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/develop/nym-vpn-app/.pkg/app.desktop
         sha256: 89d01a49dac087c987b2741dddb3bcb9e7f1461d9c0f50b7f75044ed45db575e
