@@ -18,13 +18,13 @@ modules:
     buildsystem: simple
     sources:
       - type: file
-        url: https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.14.0/nym-vpn_2026.14.0_linux_x64
-        sha256: 4af6d17e2dbebdf73498136f41f2c648bbad464009bb6572d56447cfb1786162
+        url: https://github.com/nymtech/nym-vpn-client/releases/download/nym-vpn-v2026.15.0/nym-vpn_2026.15.0_linux_x64
+        sha256: 8ac1484cabb14eeaaf0ab03c04425fbba772c7afa065e4af206d56d922a0fb56
         only-arches: [x86_64]
         dest-filename: nym-vpn
       - type: file
-        url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/c869cd5285e7714682672d1b891f82520dc1b8dc/nym-vpn-app/.pkg/flatpak/net.nymtech.NymVPN.metainfo.xml
-        sha256: e515256d5df639e9ef5b75d699273f71a7ceabab32636025e35f521c413dc4d4
+        url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/3ebbc4faa185019b9724f03b8560286ac51a5bf3/nym-vpn-app/.pkg/flatpak/net.nymtech.NymVPN.metainfo.xml
+        sha256: 3acc15ab76130549bb9625e3f284a29a9ef8cd9ca9ce8dd2eb43481839346696
       - type: file
         url: https://raw.githubusercontent.com/nymtech/nym-vpn-client/develop/nym-vpn-app/.pkg/app.desktop
         sha256: 89d01a49dac087c987b2741dddb3bcb9e7f1461d9c0f50b7f75044ed45db575e
